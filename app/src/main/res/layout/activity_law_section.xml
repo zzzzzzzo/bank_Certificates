@@ -1,54 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
     tools:context=".LawSectionActivity">
 
-    <Button
-        android:id="@+id/btn_first"
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:scaleType="matrix"
+        app:srcCompat="@mipmap/main" />
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="470dp"
+        android:text="@string/btn_first_label"
         android:onClick="openFirst"
-        android:text="@string/btn_first_label" />
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/btn_second"
+        android:id="@+id/second"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="390dp"
+        android:text="@string/btn_second_label"
         android:onClick="openSecond"
-        android:text="@string/btn_second_label" />
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/btn_third"
+        android:id="@+id/third"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="310dp"
+        android:text="@string/btn_third_label"
         android:onClick="openThird"
-        android:text="@string/btn_third_label" />
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/btn_fourth"
+        android:id="@+id/fourth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="230dp"
+        android:text="@string/btn_fourth_label"
         android:onClick="openFourth"
-        android:text="@string/btn_fourth_label" />
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/btn_fifth"
+        android:id="@+id/fifth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:text="@string/btn_fifth_label"
         android:onClick="openFifth"
-        android:text="@string/btn_fifth_label" />
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
 
-</LinearLayout>
+</RelativeLayout>

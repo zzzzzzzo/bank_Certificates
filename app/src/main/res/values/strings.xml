@@ -13,14 +13,30 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="first_label">first</string>
-    <string name="second_label">second</string>
-    <string name="third_label">third</string>
-    <string name="fourth_label">fourth</string>
-    <string name="fifth_label">fifth</string>
     <string name="btn_first_label">第一部分</string>
     <string name="btn_second_label">第二部分</string>
     <string name="btn_third_label">第三部分</string>
     <string name="btn_fourth_label">第四部分</string>
     <string name="btn_fifth_label">第五部分</string>
+    <string name="first1_label">第一部分第一章</string>
+    <string name="first2_label">第一部分第二章</string>
+    <string name="first3_label">第一部分第三章</string>
+    <string name="first4_label">第一部分第四章</string>
+    <string name="second1_label">第二部分第一章</string>
+    <string name="second2_label">第二部分第二章</string>
+    <string name="second3_label">第二部分第三章</string>
+    <string name="second6_label">第二部分第六章</string>
+    <string name="second7_label">第二部分第七章</string>
+    <string name="third1_label">第三部分第一章</string>
+    <string name="third2_label">第三部分第二章</string>
+    <string name="third3_label">第三部分第三章</string>
+    <string name="third4_label">第三部分第四章</string>
+    <string name="third5_label">第三部分第五章</string>
+    <string name="fourth1_label">第四部分第一章</string>
+    <string name="fourth2_label">第四部分第二章</string>
+    <string name="fourth3_label">第四部分第三章</string>
+    <string name="fourth4_label">第四部分第四章</string>
+    <string name="fifth1_label">第五部分第一章</string>
+    <string name="fifth3_label">第五部分第三章</string>
+    <string name="fifth4_label">第五部分第四章</string>
 </resources>
