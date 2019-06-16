@@ -7,4 +7,20 @@
     <string name="menu_credit_label">公司信贷</string>
     <string name="menu_loan_label">个人贷款</string>
     <string name="menu_bank_label">银行管理</string>
+    <string name="btn_history_label">历年试卷</string>
+    <string name="btn_forecast_label">预测试卷</string>
+    <string name="btn_section_label">章节内容</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_label">first</string>
+    <string name="second_label">second</string>
+    <string name="third_label">third</string>
+    <string name="fourth_label">fourth</string>
+    <string name="fifth_label">fifth</string>
+    <string name="btn_first_label">第一部分</string>
+    <string name="btn_second_label">第二部分</string>
+    <string name="btn_third_label">第三部分</string>
+    <string name="btn_fourth_label">第四部分</string>
+    <string name="btn_fifth_label">第五部分</string>
 </resources>
