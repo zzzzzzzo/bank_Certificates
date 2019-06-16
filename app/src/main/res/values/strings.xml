@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Certificates</string>
+    <string name="show_label">银行从业资格考试</string>
+    <string name="menu_law_label">银行业法律法规与综合能力</string>
+    <string name="menu_manage_label">个人理财</string>
+    <string name="menu_risk_label">风险管理</string>
+    <string name="menu_credit_label">公司信贷</string>
+    <string name="menu_loan_label">个人贷款</string>
+    <string name="menu_bank_label">银行管理</string>
+</resources>

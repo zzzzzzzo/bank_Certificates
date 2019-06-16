@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_law"
+        android:title="@string/menu_law_label" />
+    <item
+        android:id="@+id/menu_manage"
+        android:title="@string/menu_manage_label" />
+    <item
+        android:id="@+id/menu_risk"
+        android:title="@string/menu_risk_label" />
+    <item
+        android:id="@+id/menu_credit"
+        android:title="@string/menu_credit_label" />
+    <item
+        android:id="@+id/menu_loan"
+        android:title="@string/menu_loan_label" />
+    <item
+        android:id="@+id/menu_bank"
+        android:title="@string/menu_bank_label" />
+</menu>
