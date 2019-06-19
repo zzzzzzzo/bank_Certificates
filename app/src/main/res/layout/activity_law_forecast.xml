@@ -1,20 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
-    tools:context=".LawForecastActivity">
+    tools:context=".LawHistoryActivity">
 
-
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/forecast000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView1" />
-</LinearLayout>
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="540dp"
+        android:text="@string/forecast0_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/forecast00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="520dp"
+        android:text="@string/forecast0_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/forecast0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="498dp"
+        android:text="@string/forecast0_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/forecast1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="462dp"
+        android:text="@string/forecast1_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/forecast2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="434dp"
+        android:text="@string/forecast2_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/forecast3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="401dp"
+        android:text="@string/forecast3_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/forecast4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="368dp"
+        android:text="@string/forecast4_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/forecast5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="335dp"
+        android:text="@string/forecast5_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/forecast6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="302dp"
+        android:text="@string/forecast6_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/forecast7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="269dp"
+        android:text="@string/forecast7_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/forecast8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="236dp"
+        android:text="@string/forecast8_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/forecast9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="203dp"
+        android:text="@string/forecast9_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/forecast10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:text="@string/forecast10_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/forecast11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="137dp"
+        android:text="@string/forecast11_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/forecast12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="104dp"
+        android:text="@string/forecast12_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/forecast13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:text="@string/forecast13_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/forecast14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:text="@string/forecast0_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/forecast15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:text="@string/forecast0_label"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+</RelativeLayout>

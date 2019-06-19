@@ -11,9 +11,10 @@ public class FifthActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fifth);
+        setTitle("第五部分");
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
-        ThirdPageAdapter pageAdapter = new ThirdPageAdapter(getSupportFragmentManager());
+        FifthPageAdapter pageAdapter = new FifthPageAdapter(getSupportFragmentManager());
         viewPager.setAdapter(pageAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);

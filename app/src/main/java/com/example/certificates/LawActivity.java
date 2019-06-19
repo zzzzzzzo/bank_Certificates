@@ -12,6 +12,7 @@ public class LawActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_law);
+        setTitle("银行业法律法规与综合能力");
     }
 
     public void openSection(View btn) {

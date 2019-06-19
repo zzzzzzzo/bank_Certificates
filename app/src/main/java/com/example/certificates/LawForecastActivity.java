@@ -9,5 +9,6 @@ public class LawForecastActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_law_forecast);
+        setTitle("预测试卷");
     }
 }

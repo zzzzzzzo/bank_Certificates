@@ -29,7 +29,9 @@
         <activity android:name=".SecondActivity" />
         <activity android:name=".ThirdActivity" />
         <activity android:name=".FourthActivity" />
-        <activity android:name=".FifthActivity"></activity>
+        <activity android:name=".FifthActivity" />
+        <activity android:name=".History1Activity" />
+        <activity android:name=".Forecast1Activity"></activity>
     </application>
 
 </manifest>

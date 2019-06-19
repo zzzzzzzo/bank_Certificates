@@ -11,6 +11,7 @@ public class ThirdActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
+        setTitle("第三部分");
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         ThirdPageAdapter pageAdapter = new ThirdPageAdapter(getSupportFragmentManager());

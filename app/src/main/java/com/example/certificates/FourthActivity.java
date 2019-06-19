@@ -11,9 +11,10 @@ public class FourthActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fourth);
+        setTitle("第四部分");
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
-        ThirdPageAdapter pageAdapter = new ThirdPageAdapter(getSupportFragmentManager());
+        FourthPageAdapter pageAdapter = new FourthPageAdapter(getSupportFragmentManager());
         viewPager.setAdapter(pageAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);

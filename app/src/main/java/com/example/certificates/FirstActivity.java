@@ -11,9 +11,10 @@ public class FirstActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
+        setTitle("第一部分");
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
-        ThirdPageAdapter pageAdapter = new ThirdPageAdapter(getSupportFragmentManager());
+        FirstPageAdapter pageAdapter = new FirstPageAdapter(getSupportFragmentManager());
         viewPager.setAdapter(pageAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);

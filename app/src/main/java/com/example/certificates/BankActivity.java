@@ -9,5 +9,6 @@ public class BankActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bank);
+        setTitle("银行管理");
     }
 }
