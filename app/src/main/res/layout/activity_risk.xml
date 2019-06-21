@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="233dp"
+        android:layout_marginBottom="250dp"
         android:text="@string/btn_section_label"
         android:textColor="#00695c"
         android:textSize="25sp"/>
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="151dp"
+        android:layout_marginBottom="200dp"
         android:text="@string/btn_history_label"
         android:textColor="#00695c"
         android:textSize="25sp"/>
@@ -46,8 +46,30 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="69dp"
+        android:layout_marginBottom="150dp"
         android:text="@string/btn_forecast_label"
+        android:textColor="#00695c"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/btn_note_label"
+        android:textColor="#00695c"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/btn_write_label"
         android:textColor="#00695c"
         android:textSize="25sp"/>
 

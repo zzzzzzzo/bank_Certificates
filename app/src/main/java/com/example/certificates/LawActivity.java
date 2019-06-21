@@ -32,4 +32,16 @@ public class LawActivity extends AppCompatActivity {
         Intent config = new Intent(this,LawForecastActivity.class);
         startActivityForResult(config,3);
     }
+
+    public void openNote(View btn) {
+        Log.i("open","openNote:");
+        Intent config = new Intent(this,LawNoteActivity.class);
+        startActivityForResult(config,4);
+    }
+
+    public void openWrite(View btn) {
+        Log.i("open","openWrite:");
+        Intent config = new Intent(this,LawWriteActivity.class);
+        startActivityForResult(config,5);
+    }
 }

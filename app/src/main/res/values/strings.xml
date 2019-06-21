@@ -10,6 +10,8 @@
     <string name="btn_history_label">历年试卷</string>
     <string name="btn_forecast_label">预测试卷</string>
     <string name="btn_section_label">章节内容</string>
+    <string name="btn_note_label">章节目录</string>
+    <string name="btn_write_label">重点笔记</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

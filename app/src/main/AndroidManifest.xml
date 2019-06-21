@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.certificates">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+         <activity android:name=".MainActivity">
+         <intent-filter>
+         <action android:name="android.intent.action.MAIN" />
+
+
+         <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+         </activity>
         <activity android:name=".LawActivity" />
         <activity android:name=".ManageActivity" />
         <activity android:name=".RiskActivity" />
@@ -30,8 +34,8 @@
         <activity android:name=".ThirdActivity" />
         <activity android:name=".FourthActivity" />
         <activity android:name=".FifthActivity" />
-        <activity android:name=".History1Activity" />
-        <activity android:name=".Forecast1Activity"></activity>
+        <activity android:name=".LawWriteActivity"/>
+        <activity android:name=".LawNoteActivity"></activity>
     </application>
 
 </manifest>
