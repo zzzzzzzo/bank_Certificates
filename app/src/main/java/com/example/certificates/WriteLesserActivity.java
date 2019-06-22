@@ -96,4 +96,28 @@ public class WriteLesserActivity extends AppCompatActivity {
             WriteLesserActivity.this.finish();
         }
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.share,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.new_share :  //分享功能
+                Intent intent=new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_TEXT,//分享类型设置为文本型
+                        "标题："+ed_title.getText().toString()+"    " +
+                                "内容："+ed_content.getText().toString());
+                startActivity(intent);
+                break;
+            default:
+                break;
+        }
+        return false;
+    }
+
 }
