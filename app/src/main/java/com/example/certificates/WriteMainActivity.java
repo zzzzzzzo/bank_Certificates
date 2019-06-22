@@ -53,8 +53,7 @@ public class WriteMainActivity extends AppCompatActivity {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
                 new AlertDialog.Builder(WriteMainActivity.this) //弹出一个对话框
-                        //.setTitle("确定要删除此便签？")
-                        .setMessage("确定要删除此便签？")
+                        .setMessage("确定要删除此条笔记？")
                         .setNegativeButton("取消", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {

@@ -129,7 +129,7 @@ public class LawNoteActivity extends ListActivity implements  Runnable,AdapterVi
         //listItemAdapter.notifyDataSetChanged();
         //构造对话框进行确认操作
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("提示").setMessage("请确认是否删除当前数据").setPositiveButton("是", new DialogInterface.OnClickListener() {
+        builder.setTitle("提示").setMessage("请确认是否删除当前目录").setPositiveButton("是", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {//which表示当前激活该事件的是哪个按钮
                 listItems.remove(position);
