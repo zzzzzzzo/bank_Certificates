@@ -47,6 +47,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="462dp"
         android:text="@string/history1_label"
+        android:onClick="openHistory1"
         android:textColor="#03A9F4"
         android:textSize="20sp" />
 
@@ -58,6 +59,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="434dp"
         android:text="@string/history2_label"
+        android:onClick="openHistory2"
         android:textColor="#03A9F4"
         android:textSize="20sp" />
 

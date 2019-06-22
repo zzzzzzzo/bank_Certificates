@@ -46,7 +46,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="462dp"
         android:text="@string/forecast1_label"
-        android:onClick="openFore"
+        android:onClick="openForecast1"
         android:textColor="#03A9F4"
         android:textSize="20sp" />
 
@@ -58,7 +58,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="434dp"
         android:text="@string/forecast2_label"
-        android:onClick="openForec"
+        android:onClick="openForecast2"
         android:textColor="#03A9F4"
         android:textSize="20sp" />
 

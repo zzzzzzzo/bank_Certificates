@@ -41,7 +41,7 @@ public class LawActivity extends AppCompatActivity {
 
     public void openWrite(View btn) {
         Log.i("open","openWrite:");
-        Intent config = new Intent(this,LawWriteActivity.class);
+        Intent config = new Intent(this,WriteMainActivity.class);
         startActivityForResult(config,5);
     }
 }
